@@ -1,14 +1,25 @@
 import React from 'react'
-import SearchForm from './SearchForm'
-import Stories from './Stories'
-import Buttons from './Buttons'
+import { useGlobalContext } from './context'
+
+// components
+import Navbar from './Navbar'
+import CartContainer from './CartContainer'
+// items
+
 function App() {
+  const { loading } = useGlobalContext()
+  if (loading) {
+    return (
+      <div className='loading'>
+        <h1>Loading...</h1>
+      </div>
+    )
+  }
   return (
-    <>
-      <SearchForm />
-      <Buttons />
-      <Stories />
-    </>
+    <main>
+      <Navbar />
+      <CartContainer />
+    </main>
   )
 }
 
