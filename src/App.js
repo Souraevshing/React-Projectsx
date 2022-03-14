@@ -1,17 +1,15 @@
-import React from 'react';
-import Navbar from './Navbar';
-import Hero from './Hero';
-import Sidebar from './Sidebar';
-import Submenu from './Submenu';
+import React from 'react'
+import SearchForm from './SearchForm'
+import Stories from './Stories'
+import Buttons from './Buttons'
 function App() {
   return (
     <>
-      <Navbar />
-      <Sidebar />
-      <Hero />
-      <Submenu />
+      <SearchForm />
+      <Buttons />
+      <Stories />
     </>
-  );
+  )
 }
 
-export default App;
+export default App
