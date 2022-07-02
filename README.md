@@ -1,3 +1,9 @@
+# Slider App
+
+## Website link : 
+
+![Slider App](https://github.com/Souraevshing/React-Projectsx/blob/Slider-app/slider-app.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
